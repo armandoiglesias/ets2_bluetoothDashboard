@@ -1,0 +1,4 @@
+C:\Users\externosop\Documents\ets\ets2-sdk-plugin-master\ets2-client\C#\Ets2SdkClient\bin\Debug\Ets2SdkClient.dll
+C:\Users\externosop\Documents\ets\ets2-sdk-plugin-master\ets2-client\C#\Ets2SdkClient\bin\Debug\Ets2SdkClient.pdb
+C:\Users\externosop\Documents\ets\ets2-sdk-plugin-master\ets2-client\C#\Ets2SdkClient\obj\Debug\Ets2SdkClient.dll
+C:\Users\externosop\Documents\ets\ets2-sdk-plugin-master\ets2-client\C#\Ets2SdkClient\obj\Debug\Ets2SdkClient.pdb
