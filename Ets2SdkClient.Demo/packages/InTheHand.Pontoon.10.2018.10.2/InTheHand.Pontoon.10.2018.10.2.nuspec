@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>InTheHand.Pontoon</id>
+    <version>10.2018.10.2</version>
+    <title>Pontoon</title>
+    <authors>Peter Foot</authors>
+    <owners>Peter Foot</owners>
+    <licenseUrl>https://github.com/inthehand/Pontoon/blob/master/License.txt</licenseUrl>
+    <projectUrl>https://github.com/inthehand/Pontoon</projectUrl>
+    <iconUrl>https://avatars3.githubusercontent.com/u/11249648</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>A flexible bridge to the Universal Windows Platform. Simplify your cross-platform development.</description>
+    <summary>A flexible bridge to the Universal Windows Platform. Simplify your cross-platform development.</summary>
+    <releaseNotes>Improved iOS Package Version handling</releaseNotes>
+    <copyright>Copyright 2016-18 In The Hand Ltd</copyright>
+    <tags>windows ios tvos android xamarin uwp win32 pcl</tags>
+    <dependencies>
+      <group targetFramework="MonoAndroid1.0">
+        <dependency id="Plugin.CurrentActivity" version="1.0.1" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
