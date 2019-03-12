@@ -348,3 +348,149 @@ export class HomePage {
  
 </ion-content>
 
+
+<ion-grid>
+  <ion-row>
+    <ion-col size="6">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6">
+            <ion-item>
+              <ion-item>
+                <ion-button color="light">
+                  <ion-img [src]="item.src"></ion-img>
+                </ion-button>
+              </ion-item>
+            </ion-item>
+          </ion-col>
+          <ion-col size="6">
+            <ion-item>
+              <ion-item>
+                <ion-button color="light">
+                  <ion-img [src]="item.src"></ion-img>
+                </ion-button>
+              </ion-item>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6">
+            <ion-item>
+              <ion-item>
+                <ion-button color="light">
+                  <ion-img [src]="item.src"></ion-img>
+                </ion-button>
+              </ion-item>
+            </ion-item>
+          </ion-col>
+          <ion-col size="6">
+            <ion-item>
+              <ion-item>
+                <ion-button color="light">
+                  <ion-img [src]="item.src"></ion-img>
+                </ion-button>
+              </ion-item>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-col>
+    <ion-col size="6">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="4">
+            <ion-item>
+              <ion-item>
+                <ion-button color="light">
+                  <ion-img [src]="item.src"></ion-img>
+                </ion-button>
+              </ion-item>
+            </ion-item>
+          </ion-col>
+          <ion-col size="4">
+            <ion-item>
+              <ion-item>
+                <ion-button color="light">
+                  <ion-img [src]="item.src"></ion-img>
+                </ion-button>
+              </ion-item>
+            </ion-item>
+          </ion-col>
+          <ion-col size="4">
+            <ion-item>
+              <ion-item>
+                <ion-button color="light">
+                  <ion-img [src]="item.src"></ion-img>
+                </ion-button>
+              </ion-item>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="4">
+            <ion-item>
+              <ion-item>
+                <ion-button color="light">
+                  <ion-img [src]="item.src"></ion-img>
+                </ion-button>
+              </ion-item>
+            </ion-item>
+          </ion-col>
+          <ion-col size="4">
+            <ion-item>
+              <ion-item>
+                <ion-button color="light">
+                  <ion-img [src]="item.src"></ion-img>
+                </ion-button>
+              </ion-item>
+            </ion-item>
+          </ion-col>
+          <ion-col size="4">
+            <ion-item>
+              <ion-item>
+                <ion-button color="light">
+                  <ion-img [src]="item.src"></ion-img>
+                </ion-button>
+              </ion-item>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="4">
+            <ion-item>
+              <ion-item>
+                <ion-button color="light">
+                  <ion-img [src]="item.src"></ion-img>
+                </ion-button>
+              </ion-item>
+            </ion-item>
+          </ion-col>
+          <ion-col size="4">
+            <ion-item>
+              <ion-item>
+                <ion-button color="light">
+                  <ion-img [src]="item.src"></ion-img>
+                </ion-button>
+              </ion-item>
+            </ion-item>
+          </ion-col>
+          <ion-col size="4">
+            <ion-item>
+              <ion-item>
+                <ion-button color="light">
+                  <ion-img [src]="item.src"></ion-img>
+                </ion-button>
+              </ion-item>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-col>
+  </ion-row>
+</ion-grid>
