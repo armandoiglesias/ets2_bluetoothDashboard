@@ -13,7 +13,7 @@ export class HomePage {
 
   logs: string = "";
   dispositivos: any = [];
-  deshabilitarScan: boolean = false;
+  MostrarScan: boolean = true;
   conectado: string = "";
 
   _serviceID:string = "";
@@ -33,7 +33,7 @@ export class HomePage {
       this.log(result);
     }
     else {
-      this.deshabilitarScan = true;
+      this.MostrarScan = false;
       this.log("Bluetooth is not enabled:", "status");
       this.log(result, "status");
     }
@@ -328,7 +328,7 @@ export class HomePage {
   </ion-toolbar>
 </ion-header>
 
-<ion-button *ngIf="deshabilitarScan" (click)="startScan()">Scan</ion-button>
+<ion-button *ngIf="MostrarScan" (click)="startScan()">Scan</ion-button>
 
 <ion-content padding>
     {{ logs }}
